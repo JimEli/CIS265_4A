@@ -16,7 +16,7 @@ The basic functionality of the program is contained in the following:
 ```C
    if (value <= 0.0f)
      break;
-   if (value <= FLT_MAX && value > maxValue) {
+   if (value <= FLT_MAX && value > maxValue) 
      maxValue = value;
 ```
 The remainder of the code deals with input and validation.
